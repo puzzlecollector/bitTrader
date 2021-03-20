@@ -1,5 +1,7 @@
 [competition link](https://dacon.io/competitions/official/235709/data/) 
 
+[A more detailed explanation of the competition](https://dacon.io/competitions/official/235709/talkboard/402666?page=1&dtype=recent) 
+
 
 ## Problem Setup 
 We are given a certain bitcoin, with chart information for the first 23 hours (or 1380 minutes. Time series data is recorded every minute). 
