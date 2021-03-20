@@ -8,8 +8,8 @@ The problem is about figuring out two things
 1. How much should be buy at the 23rd hour? 
 2. When should we sell the coin? (it has to be sold in the next 2 hours).  
 
-The competition seems to encourage us to predict the short term price changes (i.e. price changes for the next 2hours) to be able to predict when to sell the coin. 
-
+The competition seems to encourage us to predict the short term price changes (i.e. price changes for the next 2hours) to be able to predict when to sell the coin.
+We initially invest $10000 and we need to get as much profit as possible. 
 
 ## Methods  
 In general, predicting eveyr single timestep for the next 120 mins (2hrs) is very difficult to do well. 
