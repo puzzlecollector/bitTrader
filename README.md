@@ -17,14 +17,14 @@ Coin or stock price data is said to have unit root, i.e. it is a random walk tha
 
 [LSTM version 1](https://github.com/puzzlecollector/bitTrader/blob/main/LSTM_time_price_forecast.ipynb) 
 - This model tries to predict the maximum price obtained in the next 2 hours and the time to sell the stock in the next 2 hours. 
-- This model ends up $5326 
+- This model ends up $5326 (loss) 
 
 [LSTM version 2](https://github.com/puzzlecollector/bitTrader/blob/main/LSTM_buy_quantity_sell_time.ipynb)
 - This model tries to predict the buy quantity and the sell time in the next 2 hours. 
-- This model ends up with $7588 
+- This model ends up with $7588 (loss)
 
 [Catboost](https://github.com/puzzlecollector/bitTrader/blob/main/Catboost%20test.ipynb) 
 - This model tries to predict the price after 2hours for each timestep. 
-- It ends up with $6572 
+- It ends up with $6572 (loss)
 
 
