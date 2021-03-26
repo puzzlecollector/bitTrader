@@ -15,7 +15,7 @@ We initially invest $10000 and we need to get as much profit as possible.
 
 ## Methods  
 In general, predicting every single timestep for the next 120 mins (2hrs) is very difficult to do well. 
-Coin or stock price data is said to have unit root, i.e. it is a random walk that is difficult to predict and because of that we will try not to go down the direction of multistep time series prediction.  
+Coin or stock price data is said to have unit root, i.e. it is a random walk that is difficult to predict and because of that we will try, as much as possible, to not go down the direction of multistep time series prediction.  
 
 [LSTM version 1](https://github.com/puzzlecollector/bitTrader/blob/main/LSTM_time_price_forecast.ipynb) 
 - This model tries to predict the maximum price obtained in the next 2 hours and the time to sell the stock in the next 2 hours. 
