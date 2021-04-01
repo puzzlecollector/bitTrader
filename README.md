@@ -33,7 +33,7 @@ Coin or stock price data is said to have unit root, i.e. it is a random walk tha
 [GRU N+K Prediction](https://github.com/puzzlecollector/bitTrader/blob/main/GRU%20full%20N%2BK%20Prediction.ipynb)
 - This model predicts the price at t+N+K, given t,t+1,...,t+N as input 
 - This appears to do better than a single timestep ahead prediction (judging from the plots), but I still believe it will incur a loss upon submission. 
-- Have not submitted yet, but I believe it will result in a loss. 
+- I have submitted the version that only uses close prices, and it results in $16813 (profit) on public leaderboard. 
 - In terms of calculating buy quantity, I am trying to employ a method where the buy quantity is proportional to the number of points that are greater than or equal to the buy price within the next 2 hours after buying. 
 
 
