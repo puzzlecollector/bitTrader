@@ -16,3 +16,8 @@ We ranked 4th place for season 1. We will try to further develop this methodolog
 - Used 20 minute Moving Average smoothed values as input 
 - Was not as successful as the GRU that used the original time series. 
 
+
+[Transformer Encoder using close prices and id](https://github.com/puzzlecollector/bitTrader/blob/main/season2/Transformer_id_close.ipynb) 
+- The loss was set as MSE 
+- Used proportions of positive returns in the predictions as buy quantity 
+- Used close prices and the coin id as features. The coin id was scaled by dividing the values by 10. This is because most of the close price values are around 1, whereas the coin id can range up to 9.  
