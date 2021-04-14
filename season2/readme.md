@@ -26,3 +26,8 @@ We ranked 4th place for season 1. We will try to further develop this methodolog
 - The loss was set as MSE 
 - Used proportions of positive returns in the predictions as buy quantity 
 - Used close prices only. 
+
+[Transformer Time2Vec Close only](https://github.com/puzzlecollector/bitTrader/blob/main/season2/Transformer%20Time2Vec%20Close%20Only.ipynb) 
+- Transformer 3 layers, with Time2Vec, close prices only
+- Prices connected to sequence. 
+- Seems pretty promising. Perhaps this is the method we should use.  
