@@ -30,4 +30,9 @@ We ranked 4th place for season 1. We will try to further develop this methodolog
 [Transformer Time2Vec Close only](https://github.com/puzzlecollector/bitTrader/blob/main/season2/Transformer%20Time2Vec%20Close%20Only.ipynb) 
 - Transformer 3 layers, with Time2Vec, close prices only
 - Prices connected to sequence. 
-- Seems pretty promising. Perhaps this is the method we should use.  
+- Seems pretty promising. Perhaps this is the method we should use.   
+
+
+[Transformer Time2Vec N+k1 N+k2 method](https://github.com/puzzlecollector/bitTrader/blob/main/season2/Transformer_Time2Vec_Close_60_and_120_point_predictions.ipynb) 
+- This method does not work! I thought it would be better than a simple N+K method. 
+- I combine predictions from N+60 and N+120. It does not work ....... 
