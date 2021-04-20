@@ -35,4 +35,9 @@ We ranked 4th place for season 1. We will try to further develop this methodolog
 
 [Transformer Time2Vec N+k1 N+k2 method](https://github.com/puzzlecollector/bitTrader/blob/main/season2/Transformer_Time2Vec_Close_60_and_120_point_predictions.ipynb) 
 - This method does not work! I thought it would be better than a simple N+K method. 
-- I combine predictions from N+60 and N+120. It does not work ....... 
+- I combine predictions from N+60 and N+120. It does not work .......  
+
+
+[Transformer Time2Vec using Open and Close to predict Open](https://github.com/puzzlecollector/bitTrader/blob/main/season2/Transformer%20Open%20Close%20predict%20Open.ipynb) 
+- This method obtains the best result on the public leaderboard as of 2021/04/20.  
+- It scores $19,407.38464 on the public leaderboard. It uses the open and the close features to predict the open features using the N+K prediction method. It also uses Time2Vector layer during training.  
