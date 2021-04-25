@@ -42,3 +42,10 @@ We ranked 4th place for season 1. We will try to further develop this methodolog
 - This method obtains the best result on the public leaderboard as of 2021/04/20.  
 - It scores $19,407.38464 on the public leaderboard. It uses the open and the close features to predict the open features using the N+K prediction method. It also uses Time2Vector layer during training.  
 - Reduced lookback window from N = 60 to N = 30.  
+
+[Transformer Time2Vec using Open, high, low, close to predict open](https://github.com/puzzlecollector/bitTrader/blob/main/season2/Transformer_OHLC.ipynb)
+- Same as above, but uses more features. 
+- Scores $20637.61538 on the public leaderboard. 
+- Also during the experimentation, I tried using instance norm but it degraded performance, so I switched to batchnorm.  
+- Weird thing: the MAPE loss was higher than the previous model that scored $19,407.38464, but somehow the leaderboard score was higher. 
+- MAPE loss was 1.01, whereas before it was 0.97. 
