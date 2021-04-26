@@ -49,3 +49,9 @@ We ranked 4th place for season 1. We will try to further develop this methodolog
 - Also during the experimentation, I tried using instance norm but it degraded performance, so I switched to batchnorm.  
 - Weird thing: the MAPE loss was higher than the previous model that scored $19,407.38464, but somehow the leaderboard score was higher. 
 - MAPE loss was 1.01, whereas before it was 0.97. 
+
+[Transformer Time2Vec using both price and volume](https://github.com/puzzlecollector/bitTrader/blob/main/season2/Transformer_OHLC_with_volumes.ipynb) 
+- Same model as above, but also incorporates volume features (trades, volume, quote_av etc) 
+- passes each through a different transformer network then blends the two results. 
+- MAPE of 0.98. 
+- Scores $22649.46664 on the public leaderboard.  
