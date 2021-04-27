@@ -54,7 +54,13 @@ We ranked 4th place for season 1. We will try to further develop this methodolog
 - Same model as above, but also incorporates volume features (trades, volume, quote_av etc) 
 - passes each through a different transformer network then blends the two results. 
 - MAPE of 0.98. 
-- Scores $22649.46664 on the public leaderboard.  
+- Scores $22649.46664 on the public leaderboard.   
+
+[Transformer Time2Vec with GRU trained at the same time](https://github.com/puzzlecollector/bitTrader/blob/main/season2/Transformer_GRU_OHLC_with_volume.ipynb) 
+- It is a large model and recoreded the lowest MAPE of 0.95.  
+- However, it scores $17779.5271222103 on the public leaderboard. It is much lower than our current best. 
+- I suspect that I stopped training a bit too ealry (it seemed to be improving even after 20 epochs). 
+- We can experiment more with large models like these. 
 
 
 # References 
