@@ -55,3 +55,9 @@ We ranked 4th place for season 1. We will try to further develop this methodolog
 - passes each through a different transformer network then blends the two results. 
 - MAPE of 0.98. 
 - Scores $22649.46664 on the public leaderboard.  
+
+
+# References 
+- Time2Vector 
+- Methods of time series prediction 
+- Wavenet
