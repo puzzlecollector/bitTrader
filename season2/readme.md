@@ -62,6 +62,10 @@ We ranked 4th place for season 1. We will try to further develop this methodolog
 - I suspect that I stopped training a bit too ealry (it seemed to be improving even after 20 epochs). 
 - We can experiment more with large models like these. 
 
+[Transformer Time2Vec with noise augmentation](https://github.com/puzzlecollector/bitTrader/blob/main/season2/Transformer_OHLC_volume_data_augmentation.ipynb) 
+- With random noise augmentation
+- Records a score of $22,649.46664
+
 
 # References 
 - Time2Vector 
