@@ -64,7 +64,7 @@ We ranked 4th place for season 1. We will try to further develop this methodolog
 
 [Transformer Time2Vec with noise augmentation](https://github.com/puzzlecollector/bitTrader/blob/main/season2/Transformer_OHLC_volume_data_augmentation.ipynb) 
 - With random noise augmentation
-- Records a score of $22,649.46664
+- Records a score of $19972.9108932918
 
 
 # References 
