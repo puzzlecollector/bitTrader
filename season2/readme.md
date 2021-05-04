@@ -69,7 +69,12 @@ We ranked 4th place for season 1. We will try to further develop this methodolog
 [Transformer Time2Vec with additional Moving Average Features](https://github.com/puzzlecollector/bitTrader/blob/main/season2/Transformer%20feature%20engineering%20moving%20average%20features.ipynb) 
 - Added open ma5, open ma10, open ma20, open ma60, open ma120 and same for volume as additional features 
 - Processed each separately using separate transformers then merged results 
-- Does not work very well. Scores pretty low in the $16000 range in the public leaderboard. 
+- Does not work very well. Scores pretty low in the $16000 range in the public leaderboard.  
+
+[Using data augmentation especially noise addition and interpolation](https://github.com/puzzlecollector/bitTrader/blob/main/season2/decaying_noise_interpolation_augmentation.ipynb) 
+- Used keras generator 
+- Training time takes too long and the model seems to have difficulty learning, so I stopped training 
+- Did not get to submit.  
 
 
 # References 
