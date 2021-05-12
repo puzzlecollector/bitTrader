@@ -76,6 +76,11 @@ We ranked 4th place for season 1. We will try to further develop this methodolog
 - Training time takes too long and the model seems to have difficulty learning, so I stopped training 
 - Did not get to submit.  
 
+[Transformer with sinusoidal positional encoding](https://github.com/puzzlecollector/bitTrader/blob/main/season2/Transformer_positional_encoder.ipynb) 
+- Trained a model with N=120 window and sinusoidal positional encoding 
+- Max ensembled with Transformer Time2Vec using both price and volume 
+- Our current best $26206.23078 on the public leaderboard. 
+
 
 # References 
 - Time2Vector 
