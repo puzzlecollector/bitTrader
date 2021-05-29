@@ -81,6 +81,11 @@ We ranked 4th place for season 1. We will try to further develop this methodolog
 - Max ensembled with Transformer Time2Vec using both price and volume 
 - Our current best $26206.23078 on the public leaderboard. 
 
+[Transformer cross attention at the end](https://github.com/puzzlecollector/bitTrader/blob/main/season2/transformer_attn.ipynb) 
+- Cross attention 
+- Records $21633 alone on the leaderboard 
+- seems promising?  
+
 
 # References 
 - Time2Vector 
